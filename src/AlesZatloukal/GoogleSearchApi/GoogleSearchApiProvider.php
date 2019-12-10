@@ -35,11 +35,5 @@ class GoogleSearchApiProvider extends ServiceProvider {
         $this->app->bind('googlesearchapi', function () {
             return new GoogleSearchApi(config('googlesearchapi.google_search_engine_id'), config('googlesearchapi.google_search_api_key'));
         });
-
-        /*$app = $this->app ?: app();
-
-        $this->app->singleton(Twitter::class, function () use ($app) {
-            return new Twitter($app['config'], $app['session.store']);
-        });*/
     }
 }
