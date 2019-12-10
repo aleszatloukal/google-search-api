@@ -1,0 +1,31 @@
+{
+    "name": "aleszatloukal/google-search-api",
+    "description": "Laravel package to get Google Custom Search results from Google Custom Search Engine API for both free and paid version.",
+    "homepage": "https://github.com/aleszatloukal/google-search-api",
+    "keywords": [
+        "search",
+        "google",
+        "custom",
+        "engine",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Aleš Zatloukal",
+        "email": "al.zatloukal@gmail.com"
+    }],
+    "support": {
+        "email": "al.zatloukal@gmail.com",
+        "issues": "https://github.com/aleszatloukal/google-search-api/issues",
+        "wiki": "https://github.com/aleszatloukal/google-search-api/wiki",
+        "source": "https://github.com/aleszatloukal/google-search-api/archive/master.zip"
+    },
+    "require": {
+        "php": ">=7.2.0",
+        "illuminate/support": ">=5.0.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
