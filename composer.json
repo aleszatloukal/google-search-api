@@ -23,6 +23,11 @@
         "php": ">=7.1.0",
         "illuminate/support": ">=5.0.0"
     },
+    "autoload": {
+        "psr-0": {
+            "AlesZatloukal\\GoogleSearchApi": "src/"
+        }
+    },
     "config": {
         "sort-packages": true
     },
