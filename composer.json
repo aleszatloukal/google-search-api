@@ -17,7 +17,6 @@
     "support": {
         "email": "al.zatloukal@gmail.com",
         "issues": "https://github.com/aleszatloukal/google-search-api/issues",
-        "wiki": "https://github.com/aleszatloukal/google-search-api/wiki",
         "source": "https://github.com/aleszatloukal/google-search-api/archive/master.zip"
     },
     "require": {
