@@ -66,8 +66,9 @@ GOOGLE_SEARCH_API_KEY=
 ### Simple usage
 Create an object and call the function getResults to get first 10 results
 ```php
-$fulltext = new LaravelGoogleCustomSearchEngine(); // initialize
-$results = $fulltext->getResults('some phrase'); // get first 10 results for query 'some phrase' 
+$googleSearch = new GoogleSearchApi(); // initialize
+
+$results = $googleSearch->getResults('some phrase'); // get first 10 results for query 'some phrase' 
 ```
 
 #### Do not forget to map namespace with, so sample controller will look like this (in min. way)
