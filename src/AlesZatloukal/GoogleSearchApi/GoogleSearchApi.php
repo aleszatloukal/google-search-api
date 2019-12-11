@@ -120,7 +120,7 @@ class GoogleSearchApi
          */
         $ch = curl_init();
 
-        curl_setopt($ch, CURLOPT_URL, "https://www.googleapis.com/customsearch/v1" . $searchArray);
+        curl_setopt($ch, CURLOPT_URL, "https://www.googleapis.com/customsearch/v1/siterestrict" . $searchArray);
         curl_setopt($ch, CURLOPT_HEADER, 0);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
@@ -186,11 +186,11 @@ class GoogleSearchApi
     }
 
     /**
-     * Get the total number of pages where the search phrase is located
+     * Get the total number of results where the search phrase is located
      *
      * @return integer
      */
-    public function getTotalNumberOfpages() {
+    public function getTotalNumberOfResults() {
         return $this->originalResponse->searchInformation->totalResults;
     }
 }
